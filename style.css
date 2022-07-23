@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15%;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.header-links {
+  display: flex;
+  list-style-type: none;
+  gap: 18px;
+  font-size: 18px;
+}
+
+.header-links > li > a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+ul {
+  padding-left: 0
+}
+
+.hero-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 7.5% 15%;
+}
+
+.hero-title {
+  width: 50%;
+  flex: 1;
+}
+
+.ht {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 8px 0;
+}
+
+.hero-image {
+  border: 2px solid gray;
+  background-color: #6d747d;
+  border-radius: 3px;
+  width: 50%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #3882F6;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  background: #0053ba;
+}
+
+.sign-up:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.sign-up:active {
+  transform: scale(0.99);
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5em;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.information-image-container {
+  display: flex;
+  gap: 3em;
+}
+
+.information-image {
+  width: 130px;
+}
+
+.blank-box {
+  border: 3px solid #3882F6;
+  height: 130px;
+  border-radius: 10%;
+}
+
+.information-image > p {
+  text-align: center;
+  color: #6d747d;
+  font-size: 16px;
+}
